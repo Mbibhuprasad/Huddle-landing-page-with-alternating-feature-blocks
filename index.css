@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: hsl(193, 100%, 96%);
+    --paragraf: hsl(208, 11%, 55%);
+    --footer: hsl(192, 100%, 9%);
+    --white: white;
+    --button: hsl(322, 100%, 66%);
+    --btn-hover: hsl(322, 100%, 74%);
+}
+
+body {
+    font-size: 18px;
+    font-family: Open Sans,Poppins;
+}
+
+header,main {
+    padding: 3rem;
+}
+
+header {
+    background-image: url("images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--bg-color);
+}
+
+main {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    margin-bottom: 3.5rem;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 11rem;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.right-nav button {
+    width: 9rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0.7px 0.7px 5px 1px rgb(199, 199, 199);
+    padding: 0.7rem;
+    font-weight: 600;
+    font-size: 0.7rem;
+    background-color: var(--white);
+}
+
+.right-nav button:hover {
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+     
+.first-content {
+    width: 35%;
+}
+
+.first-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.first-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.first-content button {
+    width: 11rem;
+    border: none;
+    padding: 0.8rem;
+    font-size: 0.7rem;
+    color: var(--white);
+    border-radius: 1.5rem;
+    box-shadow: 0.7px 0.7px 4px 1px rgb(210, 210, 210);
+    background-color: var(--button);
+}
+
+.first-content button:hover {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+.first-imag {
+    width: 45%;
+}
+
+.first-imag img {
+    width: 100%;
+}
+
+.second-block ,.third-block ,.forth-block {
+    padding: 4rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.7rem;
+    box-shadow: 0.6px 0.6px 4px 0.7px rgb(228, 227, 227);
+}
+
+.forth-block {
+    margin-bottom: 8rem;
+}
+
+.img-dirn{
+    flex-direction: row-reverse;
+}
+
+main .content {
+    width: 35%;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: var(--paragraf);
+}
+
+main .image {
+    width: 25%;
+}
+
+.image img {
+    width: 100%;
+}
+
+.fifth-block {
+    width: 45%;
+    padding: 2rem;
+    left: 27%;
+    bottom: -4rem;
+    position: absolute;
+    border-radius: 1rem;
+    background-color: var(--white);
+    box-shadow: 0.6px 0.6px 4px 0.7px rgb(228, 227, 227);
+}
+
+.fifth-block h2 {
+    text-align: center;
+}
+
+.fifth-block button {
+    width: 40%;
+    border: none;
+    display: block;
+    margin: 2rem auto 0 auto;
+    padding: 1rem;
+    font-size: 0.7rem;
+    color: var(--white);
+    border-radius: 1.5rem;
+    background-color: var(--button);
+}
+
+.fifth-block button:hover {
+    background-color: var(--btn-hover);
+    cursor: pointer;
+}
+
+footer {
+    padding: 7rem 3rem 3rem 3rem;
+    background-color: var(--footer);
+}
+
+#sec-huddle-logo {
+    width: 14rem;
+    margin-bottom: 2rem;
+    filter: brightness(0) invert(1);
+}
+
+.comunication {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.contact img {
+    display: block;
+    width: 1.2rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+
+.location p {
+    max-width: 22rem;
+}
+.contact div {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.comunication p{
+    color: var(--paragraf);
+    font-size: 0.9rem;
+}
+
+.comunication a {
+    display: block;
+    text-decoration: none;
+    width: fit-content;
+    font-size: 0.9rem;
+    color: var(--paragraf);
+    margin-bottom: 1rem;
+}
+
+.comunication a:hover {
+    text-decoration: dashed;
+    color: white;
+}
+
+.social-img {
+    display: flex;
+}
+
+.social-img i {
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 0.6rem;
+    margin: auto 1rem;
+    color: white;
+    border: 1px solid var(--paragraf);
+}
+
+.social-img i:hover {
+    color: var(--button);
+    cursor: pointer;
+    border-color: var(--button);
+}
+
+.copyright {
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: var(--paragraf);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width:600px) {
+        .header-content {
+            flex-direction: column;
+        }
+
+        header {
+            background-image: url("images/bg-hero-mobile.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .navbar button {
+            width: 5rem;
+            font-size: 0.4rem;
+        }
+
+        .first-content {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .first-content h1 {
+            font-size: 1.7rem;
+        }
+
+        .first-content p {
+            font-size: 1rem;
+        }
+
+        .first-content button {
+            width: 80%;
+        }
+
+        .first-imag {
+            width: 100%;
+        }
+
+        .second-block ,.third-block ,.forth-block{
+            flex-direction: column;
+        }
+
+        main .image {
+            width: 100%;
+        }
+
+        main h2 {
+            font-size: 1.2rem;
+        }
+
+        main .content {
+            text-align: center;
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        .fifth-block {
+            left: 3%;
+            width: 95%;
+        }
+
+        .fifth-block h2{
+            font-size: 1.2rem;
+        }
+
+        .fifth-block p {
+            font-size: 0.5rem;
+        }
+
+        .fifth-block button {
+            width: 90%;
+        }
+
+        .comunication {
+            display: block;
+        }
+
+        .contact {
+            margin-bottom: 2rem;
+        }
+
+        .social-img {
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .copyright {
+            text-align: center;
+            margin-top: 2rem;
+        }
+}
